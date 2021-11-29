@@ -70,4 +70,3 @@ y = -w[0] / w[1] * x + (0.5 - b) / w[1]
 plt.plot(x, y, '-r')
 plt.scatter(inputs[:, 0], inputs[:, 1], c = predictions[:, 0] > 0.5)
 plt.show()
-
